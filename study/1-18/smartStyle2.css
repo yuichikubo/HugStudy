@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 300px;
+  }
+  aside {
+    width: 100px;
+  }
+  main {
+    width: 200px;
+  }
+  .right {
+    width: 75px;
+  }
+  .left_top,
+  .left_bottom {
+    width: 125px;
+  }
+  .bottom {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .wrapper {
+    width: 150px;
+  }
+  aside,
+  main,
+  aside,
+  .right,
+  .left_top,
+  .left_bottom,
+  .bottom,
+  footer {
+    width: 100%;
+    float: none;
+  }
+  aside,
+  .right {
+    height: 100px;
+  }
+}
